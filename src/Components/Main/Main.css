@@ -1,0 +1,162 @@
+.welcome-container {
+    display: flex;
+    
+    height: 75vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.welcome-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.welcome-text h1 span {
+    text-align: center;
+    
+    background: -webkit-linear-gradient(to right, #159688, #2C5364, #203A43, #0F2027);
+background: linear-gradient(90deg, rgba(21,150,136,1) 0%, rgba(55, 124, 98, 1) 35%);
+background-clip: text;    
+-webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 75px;
+    font-weight: 600;
+    
+  
+}
+
+.welcome-text  h1 {
+      /*animation effect */
+      overflow: hidden; /* Ensures the content is not revealed until the animation */
+      border-right: 5px solid ; /* The typwriter cursor */
+      white-space: nowrap; /* Keeps the content on a single line */
+      margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+      letter-spacing: 5px;
+      animation: 
+        typing 2.8s steps(40, end),
+        blink-caret .75s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: #377C62; }
+  }
+
+.welcome-text p{
+    text-align: center;
+    font-size: 35px;
+
+}
+
+
+
+.action-container {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+
+.action-container button {
+    width: 140px;
+    height: 45px;
+    margin-top: 16px;
+    font-weight: 600;
+    font-size: 16px;
+ 
+    
+    border-radius:4px;
+    cursor: pointer;
+}
+
+.btn-curriculo {
+    background: #1E2D2F;
+    border: 1px solid #377C62;
+    color: #fff;
+}
+
+.btn-contato {
+    background: #fff;
+    color: #1E2D2F;
+    border: none;
+  
+}
+/*
+
+.container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.container img{
+    margin-top: 8px;
+    height: 350px;
+    border-radius: 50%;
+    
+}
+
+.container h1{
+    text-align: center;
+    width: 55%;
+    font-size: 65px;
+    font-weight: 600;
+}
+
+.container h1 span {
+    background: rgb(21,150,136);  
+    background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  
+    background: linear-gradient(90deg, rgba(21,150,136,1) 0%, rgb(55, 124, 98) 35%, 100%);
+    background-clip: text;    
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent
+}
+
+.container p{
+    width: 50%;
+    text-align: center;
+    font-size: 22px;
+    line-height: 40px;
+}
+
+.main-action {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 50px;
+}
+
+.connect {
+   padding: 20px 25px;
+   border-radius: 45px; 
+   background: #203A43;
+   cursor: pointer;
+}
+
+.connect:hover {
+ border: 2px solid #203A43;   
+}
+
+.resume {
+    padding: 15px 30px;
+    border-radius: 50px;
+    border: 2px solid #fff;
+    cursor: pointer;
+}
+
+ .resume:hover {
+    border: 2px solid #159688;
+}
+
+/*
