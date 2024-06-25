@@ -16,9 +16,9 @@ const About = () => {
                 </div>
                 <div className="about-right">
                     <div className="about-description">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos et magnam sunt a accusamus</p>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim adipisci hic possimus fugit culpa iste harum, officiis
-                            alias assumenda illum!</p>
+                        <p> Minha jornada começou com uma sólida base acadêmica, graduando-me em Análise e Desenvolvimento de Sistemas pela Estácio. Essa formação me proporcionou um entendimento abrangente dos fundamentos da computação e boas práticas no desenvolvimento de software.</p>
+                        <p>  Além da minha formação acadêmica, busquei aprimorar minhas habilidades através de um curso intensivo de formação em Desenvolvedor Full Stack na Cubos Academy. Essa experiência ampliou meu conhecimento, permitindo-me abordar projetos de ponta a ponta, desde o desenvolvimento do back-end até a criação de interfaces de usuário dinâmicas e responsivas.</p>
+                        <p>Possuo experiência em JavaScript,Typescript, Python, HTML, CSS, e frameworks como React e Node.js. Além de experiência em APIs, banco de dados, Git e GitHub.</p>
                     </div>
                 </div>
             </div>

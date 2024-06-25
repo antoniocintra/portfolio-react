@@ -18,6 +18,10 @@
   font-size: 60px;
   font-weight: 600;
 }
+.skills-title hr {
+font-weight: 300px;
+  margin-top: 15px;
+}
 
 .cards {
   display: flex;

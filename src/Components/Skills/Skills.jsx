@@ -6,6 +6,7 @@ export const SkillIcons = () => {
     <>
     <div className='skills-title'>
     <h2>Habilidades</h2>
+    
   </div>
     <div className='container'>
       {icons.map((img) => (

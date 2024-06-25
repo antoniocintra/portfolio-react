@@ -52,6 +52,7 @@ background-clip: text;
 .welcome-text p{
     text-align: center;
     font-size: 35px;
+   margin-bottom: 5px;
 
 }
 
