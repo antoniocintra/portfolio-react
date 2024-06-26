@@ -6,13 +6,12 @@ const Navbar = () => {
         <div className='navbar'>
             <img src= {logo} alt="logo from portfolio" />
             <ul className="nav-menu">
-                <li>Início</li>
-                <li>Sobre</li>
-                <li>Serviços</li>
-                <li>Portfolio</li>
+                <a href='#home'><li>Início</li></a>
+                <a href='#about'><li>Sobre</li></a>
+                <a href='#projects'><li>Portfolio</li></a>
                 <li>Contatos</li>
             </ul>
-            <div className='nav-connect'>Fale comigo</div>
+            <div className='nav-connect' href = ''>Fale comigo</div>
         </div>
     )
 }
