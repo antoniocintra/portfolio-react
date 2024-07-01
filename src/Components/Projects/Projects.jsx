@@ -1,11 +1,11 @@
 import './Projects.css';
 import work_data from '../../assets/work-data';
-import arrow_icon from '../../assets/arrow_icon.svg'
+
 
 
 const Projects = () => {
     return (
-        <div className='my-work'>
+        <div className='my-work' id='projects'>
             <div className="my-work-title">
                 <h1>Projetos</h1>
                 <hr />
