@@ -16,10 +16,10 @@ const Projects = () => {
                         <div key={index}>
 
                             <h3>{work.name}</h3>
-                            <a href='https://cubos-player-k4w4aztmk-antnio-eduardo-cintra-ferrazs-projects.vercel.app/'
+                            <a href= {work.url}
                                 target='_blank'
                             >
-                                <img src={work.img} alt="" />
+                                <img src={work.img} alt= {work.name}/>
                             </a>
                             <h3 className='h3-subs'>Tecnologias: HTML,CSS,JavaScript, React. </h3>
 

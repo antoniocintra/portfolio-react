@@ -4,7 +4,8 @@ const work_data = [
     {
         id:1,
         name:"Cubos Player",
-        img:project1_img
+        img:project1_img,
+        url: "https://cubos-player-k4w4aztmk-antnio-eduardo-cintra-ferrazs-projects.vercel.app/"   
     },
     {
         id:2,
