@@ -1,6 +1,7 @@
 import './Navbar.css';
 import logo from '../../assets/logo-removebg.png'
 
+
 const Navbar = () => {
     return(
         <div className='navbar'>
@@ -9,7 +10,7 @@ const Navbar = () => {
                 <a href='#home'><li>Início</li></a>
                 <a href='#about'><li>Sobre</li></a>
                 <a href='#projects'><li>Portfolio</li></a>
-                <li>Contatos</li>
+               <a href='#footer'><li>Contatos</li></a>
             </ul>
             <div className='nav-connect' href = ''>Fale comigo</div>
         </div>

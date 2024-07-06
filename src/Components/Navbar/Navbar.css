@@ -11,7 +11,7 @@ html {
 
 .navbar img {
     width: 125px;
-    border-radius: 5px;
+    
 }
 .navbar a {
     text-decoration: none;
@@ -29,7 +29,7 @@ html {
 }
 
 .nav-connect {
-    padding: 8px 20px;
+    padding: 8px 10px;
     border-radius: 10px;
     background: #159957;
     background: #0c6e66;  

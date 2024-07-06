@@ -8,7 +8,7 @@ const Projects = () => {
         <div className='my-work' id='projects'>
             <div className="my-work-title">
                 <h1>Projetos</h1>
-                <hr />
+                
             </div>
             <div className="work-container">
                 {work_data.map((work, index) => {
