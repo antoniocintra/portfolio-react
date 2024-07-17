@@ -35,7 +35,7 @@
 }
 
 .cards>h3 {
-  color: var(--dark-40);
+  
   font-size: 18px;
   font-weight: 500;
 }
@@ -43,3 +43,16 @@
 .cards img {
   height: 60px;
 }
+@media(max-width: 768px){
+  
+  .cards {
+    height: 80px;
+    width: 80px;
+  }
+  .cards h3 {
+    font-size: 14px;
+  }
+  .cards img {
+    height: 40px;
+  }
+  }

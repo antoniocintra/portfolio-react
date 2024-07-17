@@ -90,3 +90,17 @@ background-clip: text;
     border: none;
   
 }
+@media(max-width:768px) {
+    .welcome-container {
+        margin-bottom: 35%;
+    }
+  .welcome-text h1 span{
+    font-size: 38px;
+  }  
+  .welcome-text p {
+    width: 70%;
+    font-size: 28px;
+    line-height: 32px;
+    margin: 10px 0px;
+  }
+}
