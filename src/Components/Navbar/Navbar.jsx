@@ -2,10 +2,9 @@ import "./Navbar.css";
 import logo from "../../assets/logo-removebg.png";
 import menu_open from "../../assets/menu_open.svg";
 import menu_close from "../../assets/menu_close.svg";
-import { useRef} from "react";
+import { useRef } from "react";
 
 const Navbar = () => {
-  
   const menuRef = useRef();
 
   const openMenu = () => {
@@ -17,18 +16,10 @@ const Navbar = () => {
   };
 
   return (
-    <div className="navbar" id = "home">
-      <img src={logo} 
-      className="logo" 
-      alt="logo from portfolio"
-       />
-      <img src={menu_open} 
-      onClick={openMenu} alt=""
-       className="nav-mob-open" 
-       />
-      <ul ref={menuRef} 
-      className="nav-menu"
-      >
+    <div className="navbar" id="home">
+      <img src={logo} className="logo" alt="logo from portfolio" />
+      <img src={menu_open} onClick={openMenu} alt="" className="nav-mob-open" />
+      <ul ref={menuRef} className="nav-menu">
         <img
           src={menu_close}
           onClick={closeMenu}
@@ -48,9 +39,9 @@ const Navbar = () => {
           <li>Contatos</li>
         </a>
       </ul>
-      <div className="nav-connect" href="">
-        Fale comigo
-      </div>
+      <a href=" https://wa.me/5511997166116" target="_blank">
+        <div className="nav-connect">Fale comigo</div>
+      </a>
     </div>
   );
 };
