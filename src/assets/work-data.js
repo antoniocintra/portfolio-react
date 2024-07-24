@@ -1,4 +1,5 @@
 import project1_img from '../assets/project_1.png'
+import project2_img from '../assets/project_2.png'
 
 const work_data = [
     {
@@ -9,13 +10,9 @@ const work_data = [
     },
     {
         id:2,
-        name:"Web design",
-        img:project1_img
-    },
-    {
-        id:3,
-        name:"Web design",
-        img:project1_img
+        name:"Editora Cintra ",
+        img: project2_img,
+        url: "https://editoracintra.com.br"
     },
    
 ]
