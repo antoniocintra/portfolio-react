@@ -39,7 +39,7 @@ const Navbar = () => {
           <li>Contatos</li>
         </a>
       </ul>
-      <a href=" https://wa.me/5511997166116" target="_blank">
+      <a href=" https://wa.me/5511997166116" target="_blank"> 
         <div className="nav-connect">Fale comigo</div>
       </a>
     </div>
